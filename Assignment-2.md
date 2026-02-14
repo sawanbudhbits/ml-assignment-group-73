@@ -4,6 +4,24 @@
 ## Topic
 **Parallel and Distributed Training of Proximal Policy Optimization (PPO)**
 
+One-line summary: P0 defines the distributed PPO problem, P1 proposes the system design, P2 implements it in code, and P3 benchmarks scaling results.
+
+## GitHub Repository
+- https://github.com/sawanbudhbits/ml-assignment-group-73
+
+# Facing Sheet
+
+## Contributors
+
+| Name                          | Roll Number  | Contribution                          |
+|-------------------------------|--------------|---------------------------------------|
+| **BUDHBHATTI SAWAN**         | 2024aa05243 | 100% (Led distributed PPO implementation) |
+| CHAKKILAM VENKATA PARDHASARADHI | 2024ac05021 | 100% (Wrote problem statement and design) |
+| TONY ABRAHAM MAMMEN         | 2024ac05596 | 100% (Ran local benchmark and collected logs) |
+| CHAUDHARI PARESH DILIP      | 2023aa05696 | 100% (Analyzed scaling summarizing results) |
+| ASHWINI PRAKASH             | 2022ac05536 | 100% (Group discussions) |
+
+
 ## P0 — Problem Formulation
 
 ### P0.1 Motivation

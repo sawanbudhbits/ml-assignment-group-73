@@ -1,0 +1,12 @@
+{
+  "env_id": "CartPole-v1",
+  "total_iters": 200,
+  "rollout_steps": 256,
+  "num_envs": 8,
+  "epochs": 4,
+  "minibatches": 4,
+  "hidden_dim": 64,
+  "seed": 42,
+  "backend": "gloo",
+  "log_jsonl": "runs/cartpole_ddppo.jsonl"
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "world_size": 1,
+    "repeats": 1,
+    "env_id": "CartPole-v1",
+    "rollout_steps": 64,
+    "num_envs_per_worker": 8,
+    "global_batch": 512,
+    "fps_mean": 34985.83982612134,
+    "fps_std": 0.0,
+    "t_iter_mean": 0.01463672064999173,
+    "t_iter_std": 0.0,
+    "speedup_vs_w1": 1.0,
+    "efficiency": 1.0,
+    "sync_frac_mean": 0.00021236314498184432
+  },
+  {
+    "world_size": 2,
+    "repeats": 1,
+    "env_id": "CartPole-v1",
+    "rollout_steps": 64,
+    "num_envs_per_worker": 4,
+    "global_batch": 512,
+    "fps_mean": 27694.948471213705,
+    "fps_std": 0.0,
+    "t_iter_mean": 0.018907589449895568,
+    "t_iter_std": 0.0,
+    "speedup_vs_w1": 0.7916045065334101,
+    "efficiency": 0.39580225326670504,
+    "sync_frac_mean": 0.006730768104087456
+  },
+  {
+    "world_size": 4,
+    "repeats": 1,
+    "env_id": "CartPole-v1",
+    "rollout_steps": 64,
+    "num_envs_per_worker": 2,
+    "global_batch": 512,
+    "fps_mean": 14262.596095380506,
+    "fps_std": 0.0,
+    "t_iter_mean": 0.03707715420002842,
+    "t_iter_std": 0.0,
+    "speedup_vs_w1": 0.4076676783025709,
+    "efficiency": 0.10191691957564272,
+    "sync_frac_mean": 0.0076269472700674365
+  }
+]

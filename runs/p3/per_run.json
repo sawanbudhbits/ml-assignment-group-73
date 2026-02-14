@@ -1,0 +1,44 @@
+[
+  {
+    "world_size": 1,
+    "repeat": 0,
+    "env_id": "CartPole-v1",
+    "rollout_steps": 64,
+    "num_envs": 8,
+    "global_batch": 512,
+    "mean_fps": 34985.83982612134,
+    "mean_t_iter": 0.01463672064999173,
+    "mean_t_rollout": 0.009423452000055477,
+    "mean_t_learn": 0.0049666688499200974,
+    "mean_t_sync": 3.1083000294529483e-06,
+    "sync_frac": 0.00021236314498184432
+  },
+  {
+    "world_size": 2,
+    "repeat": 0,
+    "env_id": "CartPole-v1",
+    "rollout_steps": 64,
+    "num_envs": 4,
+    "global_batch": 512,
+    "mean_fps": 27694.948471213705,
+    "mean_t_iter": 0.018907589449895568,
+    "mean_t_rollout": 0.009022025049989679,
+    "mean_t_learn": 0.008749981150072018,
+    "mean_t_sync": 0.0001272625999945376,
+    "sync_frac": 0.006730768104087456
+  },
+  {
+    "world_size": 4,
+    "repeat": 0,
+    "env_id": "CartPole-v1",
+    "rollout_steps": 64,
+    "num_envs": 2,
+    "global_batch": 512,
+    "mean_fps": 14262.596095380506,
+    "mean_t_iter": 0.03707715420002842,
+    "mean_t_rollout": 0.012544243750016903,
+    "mean_t_learn": 0.022090129249932033,
+    "mean_t_sync": 0.00028278550000777615,
+    "sync_frac": 0.0076269472700674365
+  }
+]

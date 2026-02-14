@@ -1,15 +1,15 @@
 
+# Facing Sheet
+
 # Assignment 2 — Parallelization/Distribution of an ML Algorithm
 
 ## Topic
 **Parallel and Distributed Training of Proximal Policy Optimization (PPO)**
 
-One-line summary: P0 defines the distributed PPO problem, P1 proposes the system design, P2 implements it in code, and P3 benchmarks scaling results.
+This programming assignment builds on our previous assignment (A3 design): P0 defines the distributed PPO problem, P1 proposes the system design by revising the A3 design, P2 implements it in code, and P3 benchmarks scaling results.
 
 ## GitHub Repository
 - https://github.com/sawanbudhbits/ml-assignment-group-73
-
-# Facing Sheet
 
 ## Contributors
 
@@ -171,6 +171,8 @@ Success criteria for P0 (to be validated later in P2/P3):
 ---
 
 ## P1 — Design (Initial)
+
+This design builds on and revises the Assignment 1 **A3 design**, adapting it to synchronous distributed PPO with explicit communication, synchronization, and scaling instrumentation.
 
 ### P1.1 Design goal
 Solve P0 by designing a **synchronous, decentralized, data-parallel PPO** training system that:
